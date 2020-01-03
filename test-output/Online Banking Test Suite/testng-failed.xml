@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Online Banking Test Suite]">
+  <test thread-count="5" name="testWithChrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNG.OnlinBankingTest_DataProvider">
+        <methods>
+          <include name="setup"/>
+          <include name="closeDriver"/>
+          <include name="test3_verifyValidLogin"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- testNG.OnlinBankingTest_DataProvider -->
+      <class name="testNG.SeleniumGrid">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+          <include name="sampleTest"/>
+        </methods>
+      </class> <!-- testNG.SeleniumGrid -->
+      <class name="testNG.TestNGExample2">
+        <methods>
+          <include name="test1"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="test3"/>
+          <include name="beforeClass"/>
+          <include name="test2"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testNG.TestNGExample2 -->
+      <class name="testNG.OnlinBankingTest_TestNG">
+        <methods>
+          <include name="test1_verifyLoginPageLinks"/>
+          <include name="setup"/>
+          <include name="test4_verifyAccountHistory"/>
+          <include name="closeDriver"/>
+          <include name="test2_verifyInvalidLogin"/>
+          <include name="test3_verifyValidLogin"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- testNG.OnlinBankingTest_TestNG -->
+      <class name="testNG.TestNGExample1">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testNG.TestNGExample1 -->
+    </classes>
+  </test> <!-- testWithChrome(failed) -->
+</suite> <!-- Failed suite [Online Banking Test Suite] -->

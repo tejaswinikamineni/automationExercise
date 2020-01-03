@@ -1,0 +1,2 @@
+21:43:56,642  INFO testNG.OnlinBankingTest_DataProvider<strong>{1}</strong>:69 - url is launched in Firefox
+21:44:06,393  INFO testNG.OnlinBankingTest_DataProvider<strong>{1}</strong>:103 - Pass: Home page is displayed

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Amazon_Flipkart_Search"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.468">
+  <properties />
+  
+  
+            <testcase name="assignment1" time="8.468" classname="testNG.Assignment1" />
+      
+</testsuite>
